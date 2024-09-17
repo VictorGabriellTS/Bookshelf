@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+.wrapper header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin: 20px 0;
+}
+
+.wrapper header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.wrapper header .logo img {
+    width: 50px;
+}
+
+.wrapper header p {
+    font-size: 12px;
+}
+
+.wrapper .btn {
+    width: max-content;
+    padding: 2px 20px;
+    border-radius: 20px;
+    height: 35px;
+    border: none;
+    background-color: #fff;
+    font-weight: bold;
+}
+
+.wrapper .btn:hover {
+    transform: scale(1.05);
+    transition: all 200ms;
+    cursor: pointer;
+}
+
+.wrapper .btn:active {
+    transform: translateY(5px);
+}
+
+.wrapper .blue-btn {
+    background-color: #0022ff;
+    color: #fff;
+}
+
+.wrapper .black-btn {
+    background-color: #000;
+    color: #fff;
+}
+
+.wrapper .conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper .conteudo .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 30px 0;
+}
+
+.wrapper .conteudo .banner p {
+    font-size: 12px;
+}
+
+.wrapper .conteudo .banner img {
+    width: 400px;
+    margin: 20px 0;
+}
+
+.wrapper .conteudo .catalogo, .wrapper footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.wrapper .conteudo .catalogo ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.wrapper footer {
+    background-color: #000;
+    margin-top: 40px;
+    color: #fff;
+    padding: 30px 0 10px;
+}
+
+.wrapper footer .btn {
+    margin-top: 15px;
+}
+
+.wrapper footer .linha {
+    margin-top: 40px;
+    width: 80%;
+    background-color: #fff;
+    padding: 0.5px;
+}
+
+.wrapper footer .credits {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.wrapper footer .credits p {
+    font-size: 10px;
+}
+
+.wrapper footer .credits div {
+    width: 1px;
+    height: 10px;
+    background-color: #fff;
+}
